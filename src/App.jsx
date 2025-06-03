@@ -4,6 +4,7 @@ import GamePlay from "./components/GamePlay";
 
 function App() {
   const [isGameStarted, setIsGameStarted] = useState(false);
+
   console.log("This is for the testing lets see");
   onsole.log("This is for the testing lets see");
   onsole.log("This is for the testing lets see");
@@ -76,6 +77,7 @@ function App() {
   onsole.log("This is for the testing lets see");
   onsole.log("This is for the testing lets see");
   onsole.log("This is for the testing lets see");
+
 
   const toggleGamePlay = () => {
     setIsGameStarted((prev) => !prev);
